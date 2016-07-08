@@ -38,7 +38,7 @@ Gem::Specification.new do |s|
   s.summary = %q{send data to zabbix from ruby}
 
   s.add_dependency("iniparse", ">= 1.4.2")
-  s.add_dependency("yajl", ">= 0.3.4")
+  s.add_dependency("yajl-ruby", ">= 1.2.1")
 
   if s.respond_to? :specification_version then
     s.specification_version = 3
